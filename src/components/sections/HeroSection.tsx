@@ -11,8 +11,8 @@ const HeroSection = () => {
   const btnRef = useRef<HTMLAnchorElement>(null);
   
   const titles = [
-    "Full-Stack Developer",
-    "DevOps Engineer",
+    "Software Developer",
+    "Java Full-Stack Developer",
     "AI/ML Practitioner"
   ];
 
@@ -91,7 +91,7 @@ const HeroSection = () => {
             ref={nameRef} 
             className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight text-text-primary"
           >
-            Manan <span className="text-accent-primary">Santoki</span>
+            Adarsh Kumar <span className="text-accent-primary">Priyadarshi</span>
           </h1>
           
           <div ref={titleRef} className="h-10 md:h-12">
@@ -109,7 +109,7 @@ const HeroSection = () => {
             ref={descRef} 
             className="text-lg md:text-xl text-text-secondary mt-4 max-w-2xl"
           >
-            Building scalable web solutions, robust infrastructure, and intelligent AI systems.
+            Building scalable web apps, robust backend infrastructure, and smart software solutions.
           </p>
           
           <div className="mt-8">

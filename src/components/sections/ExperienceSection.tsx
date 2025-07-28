@@ -19,38 +19,38 @@ interface Experience {
 
 const experienceData: Experience[] = [
   {
-    id: 'balkrushna',
-    company: 'Balkrushna Technologies',
-    position: 'DevOps & AI Engineer Intern',
-    period: 'May 2023 - July 2023',
-    description: [
-      'Implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 30%.',
-      'Developed an AI Chatbot using LangChain and integrated it with company\'s knowledge base.',
-      'Configured and managed Kubernetes clusters for microservices architecture.'
-    ]
-  },
-  {
-    id: 'jalaram',
-    company: 'Jalaram Wiremesh Co.',
+    id: 'Tranquil AI',
+    company: 'Tranquil AI PVT LTD',
     position: 'Software Developer Intern',
-    period: 'Dec 2022 - Apr 2023',
+    period: 'Nov 2024 - May 2025',
     description: [
-      'Designed and developed an Inventory Management System using MERN stack.',
-      'Implemented data visualization dashboards using Recharts to track inventory metrics.',
-      'Created a responsive UI with Material-UI and optimized database queries for performance.'
+      'Designed an intelligent recommendation system to suggest suitable colleges based on individual academic backgrounds and preferences.',
+      'Applied data preprocessing techniques, feature engineering, and classification models including Decision Tree and KNN Algorithm to enhance prediction relevance.',
+      'Integrated the machine learning model with a responsive Flask backend, streamlining the end-to-end recommendation workflow for improved user experience.'
     ]
   },
-  {
-    id: 'freelance',
-    company: 'Freelance Web Developer',
-    position: 'Full-Stack Developer',
-    period: 'Jun 2021 - Present',
-    description: [
-      'Developed Bhoopati.com, a land marketplace platform with Google Maps integration and payment processing.',
-      'Created Octafiles.com, an attorney booking platform with secure video meetings functionality.',
-      'Provided server administration and DevOps services for multiple clients.'
-    ]
-  }
+  // {
+  //   id: 'jalaram',
+  //   company: 'Jalaram Wiremesh Co.',
+  //   position: 'Software Developer Intern',
+  //   period: 'Dec 2022 - Apr 2023',
+  //   description: [
+  //     'Designed and developed an Inventory Management System using MERN stack.',
+  //     'Implemented data visualization dashboards using Recharts to track inventory metrics.',
+  //     'Created a responsive UI with Material-UI and optimized database queries for performance.'
+  //   ]
+  // },
+  // {
+  //   id: 'freelance',
+  //   company: 'Freelance Web Developer',
+  //   position: 'Full-Stack Developer',
+  //   period: 'Jun 2021 - Present',
+  //   description: [
+  //     'Developed Bhoopati.com, a land marketplace platform with Google Maps integration and payment processing.',
+  //     'Created Octafiles.com, an attorney booking platform with secure video meetings functionality.',
+  //     'Provided server administration and DevOps services for multiple clients.'
+  //   ]
+  // }
 ];
 
 const ExperienceSection = () => {

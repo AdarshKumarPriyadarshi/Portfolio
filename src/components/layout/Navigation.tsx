@@ -71,7 +71,7 @@ const Navigation = () => {
           className="text-2xl font-extrabold text-text-primary hover:text-accent-primary transition-colors"
           onClick={(e) => scrollToSection(e, '#hero')}
         >
-          MS<span className="text-accent-primary">.</span>
+          AK<span className="text-accent-primary">.</span>
         </a>
         
         {/* Desktop Navigation */}

@@ -73,25 +73,25 @@ const ContactSection = () => {
           </p>
           <div className="space-y-5">
             <a
-              href="mailto:manansantoki2003@gmail.com"
+              href="mailto:adarsh123150@gmail.com"
               className="flex items-center gap-4 text-text-primary hover:text-accent-primary transition-colors group"
             >
               <div className="p-3 border-2 border-border-primary rounded group-hover:border-accent-primary transition-colors">
                 <Mail size={22} />
               </div>
-              <span className="text-lg">manansantoki2003@gmail.com</span>
+              <span className="text-lg">adarsh123150@gmail.com</span>
             </a>
             <a
-              href="tel:+918460342667"
+              href="tel:+8210661503"
               className="flex items-center gap-4 text-text-primary hover:text-accent-primary transition-colors group"
             >
               <div className="p-3 border-2 border-border-primary rounded group-hover:border-accent-primary transition-colors">
                 <Phone size={22} />
               </div>
-              <span className="text-lg">+91-8460342667</span>
+              <span className="text-lg">+91-8210661503</span>
             </a>
             <a
-              href="https://github.com/manan-santoki"
+              href="https://github.com/AdarshKumarPriyadarshi"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 text-text-primary hover:text-accent-primary transition-colors group"
@@ -99,9 +99,9 @@ const ContactSection = () => {
               <div className="p-3 border-2 border-border-primary rounded group-hover:border-accent-primary transition-colors">
                 <Github size={22} />
               </div>
-              <span className="text-lg">github.com/manan-santoki</span>
+              <span className="text-lg">github.com/AdarshKumarPriyadarshi</span>
             </a>
-            <a
+            {/* <a
               href="https://manansantoki.xyz"
               target="_blank"
               rel="noopener noreferrer"
@@ -111,7 +111,7 @@ const ContactSection = () => {
                 <Globe size={22} />
               </div>
               <span className="text-lg">manansantoki.xyz</span>
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -141,7 +141,7 @@ const ContactSection = () => {
 
         <div className="mt-16 md:mt-24 border-t border-border-primary pt-8">
           <p className="text-center text-text-secondary">
-            © {new Date().getFullYear()} Manan Santoki. All rights reserved.
+            © {new Date().getFullYear()} Adarsh Kumar Priyadarshi. All rights reserved.
           </p>
         </div>
       </div>

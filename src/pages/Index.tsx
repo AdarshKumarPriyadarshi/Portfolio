@@ -56,7 +56,7 @@ const Index = () => {
 
   if (isLoading) {
     // Using the updated Preloader with progress bar
-    return <Preloader onLoaded={handlePreloaderLoaded} siteName="sic parvis magna" />;
+    return <Preloader onLoaded={handlePreloaderLoaded} siteName="Sigue tus sueños" />;
   }
 
   return (

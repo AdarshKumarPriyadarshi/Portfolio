@@ -38,73 +38,72 @@ const placeholderImage = "/placeholder.svg"; // Or your specific default placeho
 
 const projectsData: Project[] = [
   {
-    id: "bhoopati",
-    title: "Bhoopati.com",
-    description: "Land marketplace platform built with MERN stack, integrating Google Maps and Razorpay for seamless land discovery and transactions.",
-    image: "https://s3.manansantoki.xyz/public/bhoopati.com.png", // Use your placeholder or specific image path
-    tech: ["React", "MongoDB", "Express", "NodeJS", "Google Maps", "Razorpay", "TailwindCSS", "Redux"],
-    githubUrl: "#",
-    liveUrl: "#",
-    fullDescription: "A comprehensive platform connecting land sellers with potential buyers, featuring advanced search, map-based discovery, and secure payment processing. The goal was to modernize the often opaque process of land acquisition.",
-    problem: "Traditional land buying processes are fragmented, with limited visibility and high dependency on intermediaries, leading to inefficiencies and lack of transparency.",
-    solution: "Created a centralized digital marketplace with verified listings, interactive map-based search, secure online payment integration, and direct communication channels to streamline transactions.",
-    role: "Full-stack developer responsible for the entire application lifecycle: from conceptualization, UI/UX design, database architecture, to frontend (React) and backend (Node.js/Express) development, and third-party API integrations.",
-    challenges: "Implementing secure and reliable payment processing with Razorpay, and integrating complex Google Maps features for accurate property boundary visualization and geofencing."
+    id: "college-genie",
+    title: "College-Genie",
+    description: "College Genie – Designed and developed an AI-based college recommendation platform for master’s programs abroad, leveraging academic scores and standardized test results (GRE, GMAT, IELTS). Implemented machine learning algorithms (KNN, Decision Tree) using Python, and integrated with a web frontend built using Tailwind CSS, HTML, and APIs for seamless user interaction.",
+    image: "/College-Genie.png", // Use your placeholder or specific image path
+    tech: ["Pyhton", "Machine Learning", "Flask", "MySQL", "HTML", "TailwindCSS", "JSON", "Typescript"],
+    githubUrl: "https://github.com/AdarshKumarPriyadarshi/CollegeGenie",
+    liveUrl: "https://preview--college-genie-find.lovable.app/",
+    fullDescription: "College Genie – AI-based platform recommending universities for master’s programs abroad using academic scores and test results (GRE, GMAT, IELTS). Built with Python, Flask, and Tailwind CSS, the system uses KNN and Decision Tree algorithms to deliver personalized, data-driven college suggestions via a responsive web interface.",
+    problem: "Students often struggle to identify the right universities for master’s programs abroad due to overwhelming options, lack of personalized guidance, and difficulty comparing admission criteria based on academic and standardized test scores.",
+    role: "Led the end-to-end development of the platform, including designing the machine learning pipeline, implementing KNN and Decision Tree algorithms in Python, and integrating the model into a Flask-based backend. Also built the responsive frontend using HTML, CSS, and Tailwind, and connected the frontend to the backend via REST APIs to ensure a seamless user experience.",
+    challenges: "Tuning ML models for accuracy, handling diverse user data, and ensuring seamless integration between a responsive frontend and the Flask-based backend."
   },
-  {
-    id: "octafiles",
-    title: "Octafiles.com",
-    description: "Attorney booking platform featuring secure video meetings and encrypted chatbox for confidential client communications.",
-    image:  "https://s3.manansantoki.xyz/public/octafiles.com.png",
-    tech: ["React", "NodeJS", "WebRTC", "Socket.io", "Encryption", "PostgreSQL", "AWS S3"],
-    githubUrl: "#",
-    liveUrl: "#",
-    fullDescription: "A secure, HIPAA-compliant (if applicable, or similar standard for legal) platform designed for legal consultations, featuring end-to-end encrypted video calls, messaging, and document sharing capabilities.",
-    problem: "Legal consultations demand utmost privacy and security for sensitive information, which many general-purpose video conferencing and messaging platforms do not adequately provide.",
-    solution: "Built a specialized platform incorporating robust end-to-end encryption for all communications, secure document handling, and features tailored to legal workflows like appointment scheduling and case management.",
-    role: "Lead developer focusing on the security architecture, real-time communication features (WebRTC and Socket.io), and database design. Ensured compliance with data privacy regulations.",
-    challenges: "Implementing flawless end-to-end encryption across various modules while maintaining excellent performance and user experience, especially on unreliable network conditions."
-  },
-  {
-    id: "ai-chatbot",
-    title: "AI Chatbot with LangChain RAG",
-    description: "Advanced conversational AI using document embedding and retrieval augmented generation for context-aware responses.",
-    image: placeholderImage,
-    tech: ["Python", "LangChain", "TensorFlow", "NLP", "Vector Database", "FastAPI", "Docker"],
-    githubUrl: "#",
-    fullDescription: "An intelligent chatbot capable of understanding complex queries and providing contextually relevant answers by leveraging a large knowledge base. It uses Retrieval Augmented Generation (RAG) to combine the strengths of LLMs with specific domain data.",
-    problem: "Standard chatbots often lack deep contextual understanding, cannot access up-to-date or proprietary information, and tend to provide generic or sometimes incorrect responses (hallucinations).",
-    solution: "Implemented a RAG system where user queries first retrieve relevant document chunks from a vectorized knowledge base. These chunks are then provided as context to a Large Language Model (LLM) to generate an informed and accurate response.",
-    role: "AI Engineer. Responsibilities included data preprocessing, setting up and optimizing the vector database, developing the retrieval mechanism, fine-tuning the LLM (if applicable), and building the API for integration.",
-    challenges: "Optimizing the vector search for speed and relevance over large document collections, minimizing LLM hallucination, and managing the computational costs associated with embeddings and generation."
-  },
-  {
-    id: "inventory",
-    title: "Inventory Control System",
-    description: "Full-stack inventory management solution with real-time tracking and analytics dashboards for business optimization.",
-    image:  "https://s3.manansantoki.xyz/public/jalaramwiremesh.com.png",
-    tech: ["Next.js", "PostgreSQL", "Tailwind CSS", "Recharts", "Authentication", "Prisma"], // Added Prisma to tech
-    githubUrl: "#", // Added GitHub URL as per original structure
-    liveUrl: "#",
-    fullDescription: "A comprehensive inventory management system designed for small to medium-sized businesses, featuring barcode scanning, supplier management, purchase order tracking, sales analytics, and predictive stock forecasting.",
-    problem: "Many small businesses rely on manual methods (e.g., spreadsheets) for inventory management, leading to stockouts, overstocking, inaccuracies, and inefficient operations.",
-    solution: "Developed an intuitive, web-based system that automates inventory tracking, provides real-time stock levels, generates insightful reports, and offers tools for better forecasting and order management.",
-    role: "Full-stack developer. Handled frontend development with Next.js and Tailwind CSS, backend API development with Node.js (via Next.js API routes) and Prisma ORM, and PostgreSQL database design.",
-    challenges: "Designing a flexible and scalable database schema to accommodate diverse inventory types and business rules, and creating an offline-first architecture component that syncs data seamlessly when connectivity is restored."
-  },
-  {
-    id: "llm-finetuning",
-    title: "Fine-Tuning LLM with QLoRA",
-    description: "Custom optimization of large language models using QLoRA technique for domain-specific applications with reduced computational needs.",
-    image: placeholderImage,
-    tech: ["PyTorch", "Transformers", "CUDA", "Python", "AI/ML", "Hugging Face", "Weights & Biases"],
-    githubUrl: "#",
-    fullDescription: "A research and development project focused on democratizing access to fine-tuning Large Language Models (LLMs) by significantly reducing their computational and memory footprints using the QLoRA (Quantized Low-Rank Adaptation) technique.",
-    problem: "Fine-tuning state-of-the-art LLMs typically requires substantial GPU resources (memory and compute), making it inaccessible for many researchers, developers, and smaller organizations.",
-    solution: "Implemented and experimented with QLoRA, which involves quantizing a pretrained model to 4-bit precision and then attaching small, trainable Low-Rank Adapters. This allows for effective fine-tuning on consumer-grade GPUs.",
-    role: "ML Engineer. Responsible for setting up the training environment, implementing the QLoRA methodology, conducting experiments on various datasets, benchmarking performance against traditional fine-tuning, and documenting findings.",
-    challenges: "Balancing model performance (e.g., perplexity, task-specific metrics) with the aggressive quantization and memory constraints. Also, optimizing the training pipeline for speed and stability with limited hardware."
-  }
+  // {
+  //   id: "octafiles",
+  //   title: "Octafiles.com",
+  //   description: "Attorney booking platform featuring secure video meetings and encrypted chatbox for confidential client communications.",
+  //   image:  "https://s3.manansantoki.xyz/public/octafiles.com.png",
+  //   tech: ["React", "NodeJS", "WebRTC", "Socket.io", "Encryption", "PostgreSQL", "AWS S3"],
+  //   githubUrl: "#",
+  //   liveUrl: "#",
+  //   fullDescription: "A secure, HIPAA-compliant (if applicable, or similar standard for legal) platform designed for legal consultations, featuring end-to-end encrypted video calls, messaging, and document sharing capabilities.",
+  //   problem: "Legal consultations demand utmost privacy and security for sensitive information, which many general-purpose video conferencing and messaging platforms do not adequately provide.",
+  //   solution: "Built a specialized platform incorporating robust end-to-end encryption for all communications, secure document handling, and features tailored to legal workflows like appointment scheduling and case management.",
+  //   role: "Lead developer focusing on the security architecture, real-time communication features (WebRTC and Socket.io), and database design. Ensured compliance with data privacy regulations.",
+  //   challenges: "Implementing flawless end-to-end encryption across various modules while maintaining excellent performance and user experience, especially on unreliable network conditions."
+  // },
+  // {
+  //   id: "ai-chatbot",
+  //   title: "AI Chatbot with LangChain RAG",
+  //   description: "Advanced conversational AI using document embedding and retrieval augmented generation for context-aware responses.",
+  //   image: placeholderImage,
+  //   tech: ["Python", "LangChain", "TensorFlow", "NLP", "Vector Database", "FastAPI", "Docker"],
+  //   githubUrl: "#",
+  //   fullDescription: "An intelligent chatbot capable of understanding complex queries and providing contextually relevant answers by leveraging a large knowledge base. It uses Retrieval Augmented Generation (RAG) to combine the strengths of LLMs with specific domain data.",
+  //   problem: "Standard chatbots often lack deep contextual understanding, cannot access up-to-date or proprietary information, and tend to provide generic or sometimes incorrect responses (hallucinations).",
+  //   solution: "Implemented a RAG system where user queries first retrieve relevant document chunks from a vectorized knowledge base. These chunks are then provided as context to a Large Language Model (LLM) to generate an informed and accurate response.",
+  //   role: "AI Engineer. Responsibilities included data preprocessing, setting up and optimizing the vector database, developing the retrieval mechanism, fine-tuning the LLM (if applicable), and building the API for integration.",
+  //   challenges: "Optimizing the vector search for speed and relevance over large document collections, minimizing LLM hallucination, and managing the computational costs associated with embeddings and generation."
+  // },
+  // {
+  //   id: "inventory",
+  //   title: "Inventory Control System",
+  //   description: "Full-stack inventory management solution with real-time tracking and analytics dashboards for business optimization.",
+  //   image:  "https://s3.manansantoki.xyz/public/jalaramwiremesh.com.png",
+  //   tech: ["Next.js", "PostgreSQL", "Tailwind CSS", "Recharts", "Authentication", "Prisma"], // Added Prisma to tech
+  //   githubUrl: "#", // Added GitHub URL as per original structure
+  //   liveUrl: "#",
+  //   fullDescription: "A comprehensive inventory management system designed for small to medium-sized businesses, featuring barcode scanning, supplier management, purchase order tracking, sales analytics, and predictive stock forecasting.",
+  //   problem: "Many small businesses rely on manual methods (e.g., spreadsheets) for inventory management, leading to stockouts, overstocking, inaccuracies, and inefficient operations.",
+  //   solution: "Developed an intuitive, web-based system that automates inventory tracking, provides real-time stock levels, generates insightful reports, and offers tools for better forecasting and order management.",
+  //   role: "Full-stack developer. Handled frontend development with Next.js and Tailwind CSS, backend API development with Node.js (via Next.js API routes) and Prisma ORM, and PostgreSQL database design.",
+  //   challenges: "Designing a flexible and scalable database schema to accommodate diverse inventory types and business rules, and creating an offline-first architecture component that syncs data seamlessly when connectivity is restored."
+  // },
+  // {
+  //   id: "llm-finetuning",
+  //   title: "Fine-Tuning LLM with QLoRA",
+  //   description: "Custom optimization of large language models using QLoRA technique for domain-specific applications with reduced computational needs.",
+  //   image: placeholderImage,
+  //   tech: ["PyTorch", "Transformers", "CUDA", "Python", "AI/ML", "Hugging Face", "Weights & Biases"],
+  //   githubUrl: "#",
+  //   fullDescription: "A research and development project focused on democratizing access to fine-tuning Large Language Models (LLMs) by significantly reducing their computational and memory footprints using the QLoRA (Quantized Low-Rank Adaptation) technique.",
+  //   problem: "Fine-tuning state-of-the-art LLMs typically requires substantial GPU resources (memory and compute), making it inaccessible for many researchers, developers, and smaller organizations.",
+  //   solution: "Implemented and experimented with QLoRA, which involves quantizing a pretrained model to 4-bit precision and then attaching small, trainable Low-Rank Adapters. This allows for effective fine-tuning on consumer-grade GPUs.",
+  //   role: "ML Engineer. Responsible for setting up the training environment, implementing the QLoRA methodology, conducting experiments on various datasets, benchmarking performance against traditional fine-tuning, and documenting findings.",
+  //   challenges: "Balancing model performance (e.g., perplexity, task-specific metrics) with the aggressive quantization and memory constraints. Also, optimizing the training pipeline for speed and stability with limited hardware."
+  // }
 ];
 
 const ProjectCard = ({ project, onOpenModal }: { project: Project, onOpenModal: (project: Project) => void }) => {
@@ -147,12 +146,21 @@ const ProjectCard = ({ project, onOpenModal }: { project: Project, onOpenModal: 
       ref={cardRef}
       className="overflow-hidden h-full flex flex-col bg-bg-primary border-border-primary hover:shadow-lg transition-all duration-300 project-card" // Original classes + project-card
     >
-      <div className="relative overflow-hidden aspect-video"> {/* Retained aspect ratio for image consistency */}
-        <img
-          src={project.image || placeholderImage} // Use defined placeholder
-          alt={project.title}
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105" // Original image hover
-        />
+      <div className="relative overflow-hidden aspect-video">
+        {project.image ? (
+          <img
+            src={project.image}
+            alt={project.title}
+            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+            onError={(e) => (e.currentTarget.src = placeholderImage)}
+          />
+        ) : (
+          <img
+            src={placeholderImage}
+            alt="Placeholder"
+            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+          />
+        )}
       </div>
       <CardContent className="flex flex-col flex-grow p-5">
         <h3 className="text-xl font-semibold mb-2 text-text-primary">
@@ -247,11 +255,20 @@ const ProjectModal = ({ project, isOpen, onClose }: { project: Project | null, i
 
         <div className="mt-1 flex-grow overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-text-secondary/50 scrollbar-track-transparent"> {/* Themed scrollbar thumb */}
           <div className="relative w-full aspect-video rounded-md overflow-hidden mb-6">
-            <img
-              src={project.image || placeholderImage}
-              alt={project.title}
-              className="w-full h-full object-cover"
-            />
+            {project.image ? (
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-full object-cover"
+                onError={(e) => (e.currentTarget.src = placeholderImage)}
+              />
+            ) : (
+              <img
+                src={placeholderImage}
+                alt="Placeholder"
+                className="w-full h-full object-cover"
+              />
+            )}
           </div>
 
           <DetailSection title="Project Overview" content={project.fullDescription} icon={Eye} />

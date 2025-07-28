@@ -73,19 +73,21 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
           <div ref={contentRef} className="lg:col-span-2">
             <p className="text-lg mb-6">
-              I'm a passionate tech enthusiast with expertise in Full-Stack Development, DevOps, and AI/ML. 
-              With a solid academic foundation from VIT Vellore, I blend theoretical knowledge 
-              with practical skills to create innovative solutions.
+              Passionate Computer Science undergraduate from VIT Vellore with hands-on expertise in Full-Stack 
+              Development, DevOps, and AI/ML. Skilled in Java, Python, C++, and modern frameworks like Spring,
+              Flask, and Firebase
             </p>
             
             <p className="text-lg mb-6">
-              My experience ranges from developing MERN stack applications to implementing CI/CD pipelines 
-              and building AI chatbots. I thrive in environments where I can apply my multidisciplinary skills 
-              to solve complex technical challenges.
+              Experienced in developing secure, scalable web solutions—from MERN stack applications to AI-powered 
+              recommendation systems and authentication services. 
+              Adept at implementing CI/CD pipelines, 
+              working with relational databases (MySQL), and deploying production-grade solutions.Thrive in Agile 
+              environments with a strong focus on building intelligent, efficient, and user-centric systems.
             </p>
             
             <p className="text-text-secondary italic">
-              "It doesn't make sense to hire smart people and tell them what to do. We hire smart people so they can tell us what to do."
+              “The people who are crazy enough to think they can change the world are the ones who do.”
             </p>
              - Steve Jobs
             <div ref={capabilitiesRef} className="mt-12">
@@ -129,7 +131,7 @@ const AboutSection = () => {
                   {/* If you have an actual image: */}
                   <img 
                     src="./profile-pic.jpg" 
-                    alt="Manan Santoki" 
+                    alt="Adarsh Kumar Priyadarshi" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -142,19 +144,19 @@ const AboutSection = () => {
                 </h3>
                 
                 <div className="space-y-4">
-                  <a href="https://www.credly.com/badges/0c6e9c72-934e-4b71-a857-522edb6071e4/public_url" 
+                  <a href="https://drive.google.com/file/d/1sYb5CU8LkUXuMLoIwku5Y8RVmlWfAtat/view?usp=sharing" 
                      className="block border border-border-primary p-4 hover:border-accent-primary hover:bg-bg-secondary/20 transition-all duration-300"
                      target="_blank" 
                      rel="noopener noreferrer" 
-                     aria-label="View AWS Certified Solutions Architect – Associate credential">
+                     aria-label="View Java Full Stack Developer – IamNEO credential">
                     <div className="flex items-center gap-3">
                       <div className="h-3 w-3 bg-accent-primary"></div>
-                      <h4 className="font-semibold">AWS Certified Solutions Architect – Associate</h4>
+                      <h4 className="font-semibold">Java Full Stack Developer – IamNEO</h4>
                       <span className="ml-auto text-sm text-accent-primary">Verify →</span>
                     </div>
                   </a>
                   
-                  <a href="https://www.credly.com/badges/1f5d4c66-316b-4a62-a43e-e19da9c9fcc5/public_url" 
+                  {/* <a href="https://www.credly.com/badges/1f5d4c66-316b-4a62-a43e-e19da9c9fcc5/public_url" 
                      className="block border border-border-primary p-4 hover:border-accent-primary hover:bg-bg-secondary/20 transition-all duration-300"
                      target="_blank" 
                      rel="noopener noreferrer"
@@ -176,7 +178,7 @@ const AboutSection = () => {
                       <h4 className="font-semibold">Cloud Digital Leader</h4>
                       <span className="ml-auto text-sm text-accent-primary">Verify →</span>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

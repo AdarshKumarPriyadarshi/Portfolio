@@ -6,7 +6,7 @@ import SkillPanel from '../ui/SkillPanel';
 gsap.registerPlugin(ScrollTrigger);
 
 const skillsData = {
-  languages: ["Python", "C++", "Java", "JavaScript", "TypeScript", "SQL", "HTML", "CSS"],
+  languages: ["Java", "C++", "C", "Python", "SQL", "HTML", "CSS"],
   frameworks: ["ReactJS", "NodeJS", "Express", "Next.js", "TensorFlow", "Keras", "LangChain", "PyTorch"],
   tools: ["Kubernetes", "Jenkins", "Docker", "GIT", "MySQL", "MongoDB", "AWS CLI", "Terraform"],
   platforms: ["AWS", "GCP", "Linux", "Windows", "Azure", "Heroku", "Netlify", "Vercel"]

@@ -12,22 +12,22 @@ const educationData = [
     institution: 'Vellore Institute of Technology',
     degree: 'B.Tech in Computer Science and Engineering',
     period: '2021 - 2025',
-    courses: ['Artificial Intelligence', 'Machine Learning', 'Database Systems', 'Computer Networks', 'Cloud Computing']
+    courses: ['Data Structures And Algorithms', 'Machine Learning', 'Database Systems', 'Computer Networks', 'Object Oriented Programming']
   },
   {
-    id: 'urmi',
-    institution: 'Urmi School',
+    id: 'kps',
+    institution: 'Krishna Public School',
     degree: 'Higher Secondary Education',
-    period: '2019 - 2021',
-    grade: 'Percentage: 92.2%',
-    courses: []
+    period: '2018 - 2020',
+    grade: 'Percentage: 84%',
+    courses: ['Physics','Chemistry','Mathematics','English','Painting']
   },
   {
-    id: 'bright',
-    institution: 'Bright Day School',
+    id: 'stkss',
+    institution: 'St. Karens Secondary School',
     degree: 'Secondary Education',
-    period: '2008 - 2019',
-    grade: 'Percentage: 89.2%',
+    period: '2017 - 2018',
+    grade: 'Percentage: 91%',
     courses: []
   }
 ];
