@@ -1,73 +1,43 @@
-# Welcome to your Lovable project
+# AdarshKumarPriyadarshi – Portfolio 🌐
 
-## Project info
+Welcome! This is my personal portfolio website built to showcase my projects, skills, and professional background.
 
-**URL**: https://lovable.dev/projects/7e641e71-941a-4125-865c-192eba214183
+---
 
-## How can I edit this code?
+## 💡 About Me
 
-There are several ways of editing your application.
+I am a software engineer student and developer with interests in full-stack development, machine learning, and building practical applications — especially in domains like hotel & food management, cargo-ship management systems, and recommendation engines.  
+I also work with technologies like Flask, Java, Python, and JavaScript to build meaningful applications and solutions.  
 
-**Use Lovable**
+Feel free to explore my work and reach out if you’d like to collaborate or connect!
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7e641e71-941a-4125-865c-192eba214183) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧰 Tech Stack & Tools
 
-**Use your preferred IDE**
+My portfolio is built using:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Modern frontend tooling (HTML, CSS / Tailwind, JavaScript / TypeScript)  
+- Build tooling and package management (e.g. via `npm` / `package.json`)  
+- Configuration using `tsconfig`, bundling setup (e.g. via Vite or similar)  
+- Containerization / deployment configs (e.g. `Dockerfile`, `docker-compose.yaml`)  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+*(You may update this list based on exactly what’s in your repo — e.g. frameworks, build tools, etc.)*
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Projects & Highlights
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+| Project / Feature | Description |
+|------------------|-------------|
+| **University Recommendation System** | A Flask-based web app that takes user input and suggests 5 suitable universities (ML-driven). |
+| **Hotel & Food Management App** | Android application built for managing hotel / food services. |
+| **Cargo Ship Management System** | System designed to manage logistics, scheduling, and cargo-ship operations. |
+| **Student Result Management System (Java + MySQL)** | A desktop application built using Java (Swing/JavaFX) and MySQL — useful for academic management and interview prep. |
 
-# Step 3: Install the necessary dependencies.
-npm i
+> ⚙️ *More projects can be added / pinned as you build them — this is just a starting point based on current work.*
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 📂 Repository Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7e641e71-941a-4125-865c-192eba214183) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
